@@ -12,4 +12,5 @@ asnproject02@gmail.com<br />
 
 # Supported by
 
-Ahmad Dahlan University
+Universitas Ahmad Dahlan<br />
+Yogyakarta<br />
