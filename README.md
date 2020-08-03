@@ -6,9 +6,10 @@ Tampilan Aplikasi
 
 # Design by
 
-ASNProject\n
-asnproject02@gmail.com\n
-+6287837964394
+ASNProject<br />
+asnproject02@gmail.com<br />
++6287837964394<br />
 
 # Supported by
+
 Ahmad Dahlan University
