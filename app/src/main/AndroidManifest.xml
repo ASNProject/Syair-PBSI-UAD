@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.syair">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Materi.Timeline5"></activity>
+        <activity android:name=".Materi.Timeline4" />
+        <activity android:name=".Materi.Timeline3" />
+        <activity android:name=".Materi.Timeline2" />
+        <activity android:name=".Materi.Timeline1" />
+        <activity android:name=".Activity.Profil" />
+        <activity android:name=".Activity.SideBar" />
+        <activity android:name=".Activity.Video" />
+        <activity android:name=".Adapter.Result" />
+        <activity android:name=".Materi.Soal" />
+        <activity android:name=".Activity.Contoh" />
+        <activity android:name=".Materi.ContohSyair" />
+        <activity android:name=".Materi.PengertianSyair" />
+        <activity android:name=".Activity.Dashboard" />
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

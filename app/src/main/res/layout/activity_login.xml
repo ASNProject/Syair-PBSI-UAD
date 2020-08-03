@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Login">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang,"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"></TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:text="Mari Bersyair"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_marginLeft="40dp"></TextView>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"></TextView>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:text="Masukkan Email"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"></TextView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text4"
+        app:cardCornerRadius="10dp">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            ></EditText>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card1"
+        android:text="Masukkan Password"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"></TextView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text5"
+        app:cardCornerRadius="10dp">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            ></EditText>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_below="@id/card2"
+        android:text="Masuk"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/kotak2"></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lin1"
+        android:layout_below="@id/buttonlogin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun?"></TextView>
+        <TextView
+            android:id="@+id/daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Daftar"
+            android:textColor="@color/birutua"></TextView>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin1"
+        android:layout_centerHorizontal="true"
+        android:text="Ingat saya" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBox"
+            android:layout_gravity="center"
+            android:text="Powered By"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/uadlogo"></ImageView>
+
+    </LinearLayout>
+</RelativeLayout>

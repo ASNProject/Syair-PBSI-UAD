@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profil"
+        android:title="Profil"></item>
+    <item android:id="@+id/credit"
+        android:title="Tentang Aplikasi"></item>
+    <item android:id="@+id/signout"
+        android:title="Keluar"></item>
+</menu>
